@@ -1,0 +1,70 @@
+#heading{
+    color: black;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+#heading img{
+    width: 75px;
+}
+
+body{
+    background: linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 100%);
+    font-family: 'Architects Daughter', cursive;
+}
+
+.webcam{
+    background: linear-gradient(225deg, rgba(0,255,0,1) 0%, rgba(0,255,255,1) 100%);
+    box-shadow: 15px 15px 10px magenta; 
+    border: magenta solid 3px;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    
+}
+
+button{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+button:hover{
+    color: magenta !important;
+}
+
+.divisionTag{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    box-shadow: 15px 15px 10px magenta;
+}
+
+label{
+    color: black;
+    box-shadow: 5px 5px 10px magenta;
+    border: black solid 3px;
+    width: 25%;
+    font-size: large;
+    padding: 5px;
+}
+
+#bulb{
+    width: 75px;  
+}
+
+#answer{
+    text-align: justify;
+    margin-top: 20px;
+    background: linear-gradient(225deg, rgba(0,255,0,1) 0%, rgba(0,255,255,1) 100%);
+    border: white solid 3px;
+    color: white;
+    box-shadow: 5px 5px 10px magenta;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(225deg, rgba(0,255,0,1) 0%, rgba(0,255,255,1) 100%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
