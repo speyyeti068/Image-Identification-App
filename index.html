@@ -24,9 +24,6 @@
 
 	</script>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="main.js">
-		
-	</script>
 </head>
 
 <body>
@@ -42,7 +39,7 @@
 				<label>
 					Webcam View
 				</label>
-				<div id="webcamCapture" class="divisionTag">
+				<div id="camera" class="divisionTag">
 
 				</div>
 				<button class="btn" onclick="captureImage()">
@@ -53,7 +50,7 @@
 				<label>
 					Image Result
 				</label>
-				<div class="divisionTag">
+				<div id = "imageResult" class="divisionTag">
 
 				</div>
 				<button class="btn" onclick="identifyImage()">
@@ -78,5 +75,7 @@
 		</div>
 	</center>
 </body>
-
+<script src="main.js">
+		
+</script>
 </html>
